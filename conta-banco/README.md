@@ -1,18 +1,54 @@
-## Getting Started
+# ContaBanco 🚀
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido como parte da trilha de Java Básico da [DIO - Digital Innovation One](https://www.dio.me/).
 
-## Folder Structure
+## 📋 Descrição
 
-The workspace contains two folders by default, where:
+O **ContaBanco** é um programa simples em Java que simula a criação de uma conta bancária via terminal. Ele utiliza conceitos fundamentais da linguagem como:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Entrada de dados com a classe `Scanner`
+- Manipulação de Strings
+- Estruturas de repetição (`while`)
+- Validação com expressões regulares (Regex)
+- Configuração de `Locale` para leitura de números decimais com ponto (`.`)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O sistema solicita ao usuário as seguintes informações:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Nome do cliente (apenas letras e espaços)
+- Número da agência (formato entre 3 e 5 dígitos, seguido de `-` e um dígito, ex: `1234-5`)
+- Número da conta (apenas números)
+- Valor a ser depositado (decimal, com ponto)
 
-## Dependency Management
+Após as validações, uma mensagem de confirmação é exibida.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 💻 Tecnologias Utilizadas
+
+- Java
+- IDE: VS Code
+
+## 📂 Estrutura do Projeto
+
+```bash
+ContaBanco/
+├── README.md
+└── src/
+    └── ContaTerminal.java
+```
+
+## 📦 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/ContaBanco.git
+   ```
+   
+1. Abra o projeto em sua IDE Java preferida.
+
+1. Compile e execute a classe ContaTerminal.
+
+1. Siga as instruções exibidas no terminal.
+
+
+## 🧠 Autor
+Projeto proposto por Gleyson Sampaio na plataforma DIO.
+Implementado por RICHARD GOMEZ como parte dos exercícios práticos da trilha Java.
